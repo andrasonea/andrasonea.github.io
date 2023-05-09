@@ -1,0 +1,2040 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_5a33d8666fc7465ead7d98ddb10bd579 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_5a33d8666fc7465ead7d98ddb10bd579" ></div>
+        
+</body>
+<script>    
+    
+            var map_5a33d8666fc7465ead7d98ddb10bd579 = L.map(
+                "map_5a33d8666fc7465ead7d98ddb10bd579",
+                {
+                    center: [52.1307, -3.7837],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_77278042c48c419a84c05c6990deea6e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_5a33d8666fc7465ead7d98ddb10bd579);
+        
+    
+            var feature_group_ae1c449125934899bff9340d2882faaa = L.featureGroup(
+                {}
+            ).addTo(map_5a33d8666fc7465ead7d98ddb10bd579);
+        
+    
+            var marker_cluster_7f8b3e0170cd40d98b83d345662bb976 = L.markerClusterGroup(
+                {}
+            );
+            feature_group_ae1c449125934899bff9340d2882faaa.addLayer(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var marker_d2baa357ee124c8c827b17ab8b6e8def = L.marker(
+                [51.4087, -3.2793],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_5f7a5b8beb7e4bc7b9f023d9c0f35065 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d2baa357ee124c8c827b17ab8b6e8def.setIcon(icon_5f7a5b8beb7e4bc7b9f023d9c0f35065);
+        
+    
+            marker_d2baa357ee124c8c827b17ab8b6e8def.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF62 8EH</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_032638878b09464b87fa9ec1c7186182 = L.marker(
+                [51.524166, -3.50396],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_3b543df1bd8d45d0a37fc1d071017565 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_032638878b09464b87fa9ec1c7186182.setIcon(icon_3b543df1bd8d45d0a37fc1d071017565);
+        
+    
+            marker_032638878b09464b87fa9ec1c7186182.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: CF35 6TB</b><br><i>mins/week: 09:55:00</i><br><i>mins/week: 11:25:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9972aeed7c6c4cfc8b8e5c2050d72e4a = L.marker(
+                [51.61028, -3.09034],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_e57b649e22504cd2b48561995aebf92c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9972aeed7c6c4cfc8b8e5c2050d72e4a.setIcon(icon_e57b649e22504cd2b48561995aebf92c);
+        
+    
+            marker_9972aeed7c6c4cfc8b8e5c2050d72e4a.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP11 6HJ</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2dd594032a6f4b7790e2adce2267f75b = L.marker(
+                [51.6546, -3.1996],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_4627e754825142a7b711c473e349c4e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2dd594032a6f4b7790e2adce2267f75b.setIcon(icon_4627e754825142a7b711c473e349c4e8);
+        
+    
+            marker_2dd594032a6f4b7790e2adce2267f75b.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP12 2EN</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f3f5569c3994a5383ada885adec9ba3 = L.marker(
+                [51.6565, -3.1826],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_afb13c31bf014944803ed7b3edea9c2b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6f3f5569c3994a5383ada885adec9ba3.setIcon(icon_afb13c31bf014944803ed7b3edea9c2b);
+        
+    
+            marker_6f3f5569c3994a5383ada885adec9ba3.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP12 2LB</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f17b552b85b4f67a16ef4b35e39b2b0 = L.marker(
+                [51.706552, -3.047074],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_364c1f29cbc34f549999356d3042b55c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9f17b552b85b4f67a16ef4b35e39b2b0.setIcon(icon_364c1f29cbc34f549999356d3042b55c);
+        
+    
+            marker_9f17b552b85b4f67a16ef4b35e39b2b0.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: NP4 6BX</b><br><i>mins/week: 09:45</i><br><i>mins/week: 11:15</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_456a70dbbc934eed8f25532f99fef862 = L.marker(
+                [51.717615, -3.850073],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_532d4922b8b24b048f2c6cb77f455ab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_456a70dbbc934eed8f25532f99fef862.setIcon(icon_532d4922b8b24b048f2c6cb77f455ab2);
+        
+    
+            marker_456a70dbbc934eed8f25532f99fef862.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: SA8 4EG</b><br><i>mins/week: 10:00:00</i><br><i>mins/week: 10:45:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_129a104e110f4fb888a126c4242b8a28 = L.marker(
+                [51.720159, -3.240493],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_c54531aeffb2429d9bc9795538e590ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_129a104e110f4fb888a126c4242b8a28.setIcon(icon_c54531aeffb2429d9bc9795538e590ff);
+        
+    
+            marker_129a104e110f4fb888a126c4242b8a28.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: NP24 6DG</b><br><i>mins/week: 10:15:00</i><br><i>mins/week: 11:00:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec3b99a37a344578aefce3cc6ea9298e = L.marker(
+                [51.7365, -2.9805],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_4ee890114d0b4a1182243b8bb08e2f88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ec3b99a37a344578aefce3cc6ea9298e.setIcon(icon_4ee890114d0b4a1182243b8bb08e2f88);
+        
+    
+            marker_ec3b99a37a344578aefce3cc6ea9298e.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP4 0AR</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ae5c3deac47d49f3b4cd36ad800f3c63 = L.marker(
+                [51.86522, -4.18949],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_88205125e3f643e4a01da09e72cb9cc4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ae5c3deac47d49f3b4cd36ad800f3c63.setIcon(icon_88205125e3f643e4a01da09e72cb9cc4);
+        
+    
+            marker_ae5c3deac47d49f3b4cd36ad800f3c63.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: SA32 7LQ</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_18937b4021db4b46872679ea32ac06cf = L.marker(
+                [52.15896, -4.03525],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_0f5be484a28047779a02d0607344b1c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_18937b4021db4b46872679ea32ac06cf.setIcon(icon_0f5be484a28047779a02d0607344b1c3);
+        
+    
+            marker_18937b4021db4b46872679ea32ac06cf.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: SA48 8NG</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_775868c961e44424baebe74553e97915 = L.marker(
+                [52.36487, -3.49634],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_06fd2e29b62649f88da6c14d57b892f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_775868c961e44424baebe74553e97915.setIcon(icon_06fd2e29b62649f88da6c14d57b892f0);
+        
+    
+            marker_775868c961e44424baebe74553e97915.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LD6 5LL</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2dd8bf85a92745fe8df45a4b9d46ada3 = L.marker(
+                [52.39381, -3.3266],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_0bf8e3ea63404842bae362f3d457aca1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2dd8bf85a92745fe8df45a4b9d46ada3.setIcon(icon_0bf8e3ea63404842bae362f3d457aca1);
+        
+    
+            marker_2dd8bf85a92745fe8df45a4b9d46ada3.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LD1 6YA</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75eec3c7de604f85b72497123f4dc9ba = L.marker(
+                [52.6017, -3.1425],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_126ce7fd8c5947759b9cbca772888401 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_75eec3c7de604f85b72497123f4dc9ba.setIcon(icon_126ce7fd8c5947759b9cbca772888401);
+        
+    
+            marker_75eec3c7de604f85b72497123f4dc9ba.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: SY21 8NE</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4290a6e3dd0144448dc4dbc68e225078 = L.marker(
+                [52.9212, -4.2679],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_957031ded9e645b0a63ef77fe95e2d47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4290a6e3dd0144448dc4dbc68e225078.setIcon(icon_957031ded9e645b0a63ef77fe95e2d47);
+        
+    
+            marker_4290a6e3dd0144448dc4dbc68e225078.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL52 0SF</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_db5c2f8503074ecaa3fd4b3a09e6128b = L.marker(
+                [52.9273, -4.5667],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_2848f109d0fc445d8b1222649c656661 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_db5c2f8503074ecaa3fd4b3a09e6128b.setIcon(icon_2848f109d0fc445d8b1222649c656661);
+        
+    
+            marker_db5c2f8503074ecaa3fd4b3a09e6128b.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL53 8YS</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2275c10a204d4427afae6cb23e447a8d = L.marker(
+                [52.98135, -3.373263],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_8131f8f53c9c4741b8c4667dfe9c2f14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2275c10a204d4427afae6cb23e447a8d.setIcon(icon_8131f8f53c9c4741b8c4667dfe9c2f14);
+        
+    
+            marker_2275c10a204d4427afae6cb23e447a8d.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: LL21 0DN</b><br><i>mins/week: 10:15:00</i><br><i>mins/week: 11:25:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e4b358bac66440d2aea4ff9d403c3935 = L.marker(
+                [53.0732, -4.2484],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_00456af7dc234c579350da36ff01528f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e4b358bac66440d2aea4ff9d403c3935.setIcon(icon_00456af7dc234c579350da36ff01528f);
+        
+    
+            marker_e4b358bac66440d2aea4ff9d403c3935.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL54 7AA</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fe5d980eac834d32852763f747b7cf11 = L.marker(
+                [53.2138, -4.0905],
+                {}
+            ).addTo(marker_cluster_7f8b3e0170cd40d98b83d345662bb976);
+        
+    
+            var icon_74aba113e3c347bc894bf792062ed229 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_fe5d980eac834d32852763f747b7cf11.setIcon(icon_74aba113e3c347bc894bf792062ed229);
+        
+    
+            marker_fe5d980eac834d32852763f747b7cf11.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL57 3YU</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_e1b86057c7f544e28c8b29529dab8fbd = L.featureGroup(
+                {}
+            ).addTo(map_5a33d8666fc7465ead7d98ddb10bd579);
+        
+    
+            var marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2 = L.markerClusterGroup(
+                {}
+            );
+            feature_group_e1b86057c7f544e28c8b29529dab8fbd.addLayer(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var marker_bb54ab1c199d42e18f9d1a7a9f8b605f = L.marker(
+                [51.4087, -3.2793],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_a41c3f95ec284471a227fb3725b6b3c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bb54ab1c199d42e18f9d1a7a9f8b605f.setIcon(icon_a41c3f95ec284471a227fb3725b6b3c1);
+        
+    
+            marker_bb54ab1c199d42e18f9d1a7a9f8b605f.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF62 8EH</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b96218f9ddb416b96b53e198950a609 = L.marker(
+                [51.4163, -3.2911],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_052654b82e9f463fa050c2717c8bb6f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3b96218f9ddb416b96b53e198950a609.setIcon(icon_052654b82e9f463fa050c2717c8bb6f3);
+        
+    
+            marker_3b96218f9ddb416b96b53e198950a609.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF62 8GP</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_97524ab346b54515bfc19f123ce2f4f9 = L.marker(
+                [51.477781, -3.703486],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_75c6438067b64630b2b133bdcc6405da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_97524ab346b54515bfc19f123ce2f4f9.setIcon(icon_75c6438067b64630b2b133bdcc6405da);
+        
+    
+            marker_97524ab346b54515bfc19f123ce2f4f9.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: CF36 3XB</b><br><i>mins/week: 14:00:00</i><br><i>mins/week: 14:45:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a26e1c6d52f48d1a01493838360a111 = L.marker(
+                [51.529487, -3.694097],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_8a35a67ad6914575a9997225abf6f1d1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9a26e1c6d52f48d1a01493838360a111.setIcon(icon_8a35a67ad6914575a9997225abf6f1d1);
+        
+    
+            marker_9a26e1c6d52f48d1a01493838360a111.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: CF33 6BB</b><br><i>mins/week: 09:45:00</i><br><i>mins/week: 10:45:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_afdbf3b6f0954ac689c6123df5ebe428 = L.marker(
+                [51.548582, -3.270249],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_6767a601824542b18c52337d18c8cf5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_afdbf3b6f0954ac689c6123df5ebe428.setIcon(icon_6767a601824542b18c52337d18c8cf5b);
+        
+    
+            marker_afdbf3b6f0954ac689c6123df5ebe428.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: CF15 7JD</b><br><i>mins/week: 14:30:00</i><br><i>mins/week: 15:00:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19270590a15443b1a2e5fb09a0173bf4 = L.marker(
+                [51.5596, -3.6021],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_dff924b4589a4c88af73babf3e96fe5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_19270590a15443b1a2e5fb09a0173bf4.setIcon(icon_dff924b4589a4c88af73babf3e96fe5e);
+        
+    
+            marker_19270590a15443b1a2e5fb09a0173bf4.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF32 0EB</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dd31f1b0ffbb4247a27d3da97076a23c = L.marker(
+                [51.58859, -2.75997],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_b4b0554d9f384fec834d0245b0afdd1b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_dd31f1b0ffbb4247a27d3da97076a23c.setIcon(icon_b4b0554d9f384fec834d0245b0afdd1b);
+        
+    
+            marker_dd31f1b0ffbb4247a27d3da97076a23c.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP26 4AA</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9d281806b544b34b8c4f1015dd6ba38 = L.marker(
+                [51.603858, -3.543119],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_117d31a725b64f3d826c6b72d0025384 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c9d281806b544b34b8c4f1015dd6ba38.setIcon(icon_117d31a725b64f3d826c6b72d0025384);
+        
+    
+            marker_c9d281806b544b34b8c4f1015dd6ba38.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: CF32 7BY</b><br><i>mins/week: 13:00:00</i><br><i>mins/week: 13:30:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13c10741822d494b9e5584d0b660b41a = L.marker(
+                [51.61466, -4.04437],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_b6225dd266bf458b99d7648b51785eba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_13c10741822d494b9e5584d0b660b41a.setIcon(icon_b6225dd266bf458b99d7648b51785eba);
+        
+    
+            marker_13c10741822d494b9e5584d0b660b41a.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: SA2 7HQ</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b99f75234d414be49d818d3f3aa26155 = L.marker(
+                [51.640569, -2.672662],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_24eb9b95269d408ca0567300b8d1914e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b99f75234d414be49d818d3f3aa26155.setIcon(icon_24eb9b95269d408ca0567300b8d1914e);
+        
+    
+            marker_b99f75234d414be49d818d3f3aa26155.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: NP16 5PB</b><br><i>mins/week: 12:15:00</i><br><i>mins/week: 12:45:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7a3acc8380fc46c8a958e19fb37fb88a = L.marker(
+                [51.7017, -2.9025],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_70f5f3e6f5b742f28baf07582a69bdcb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7a3acc8380fc46c8a958e19fb37fb88a.setIcon(icon_70f5f3e6f5b742f28baf07582a69bdcb);
+        
+    
+            marker_7a3acc8380fc46c8a958e19fb37fb88a.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP15 1AE</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03b6842c4e974c79be6379ba988d3eb5 = L.marker(
+                [51.759812, -3.283892],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_b34652ecf85946a4ae416955b1b1f201 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_03b6842c4e974c79be6379ba988d3eb5.setIcon(icon_b34652ecf85946a4ae416955b1b1f201);
+        
+    
+            marker_03b6842c4e974c79be6379ba988d3eb5.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: NP22 5NU</b><br><i>mins/week: 11:30:00</i><br><i>mins/week: 12:00:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c13f8a36794d4e109687b08496ccab50 = L.marker(
+                [51.7881, -2.7873],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_9da0909821a4454f96861c0bd2bf487d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c13f8a36794d4e109687b08496ccab50.setIcon(icon_9da0909821a4454f96861c0bd2bf487d);
+        
+    
+            marker_c13f8a36794d4e109687b08496ccab50.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP25 4BH</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_87564662f4424dc68124dbb71a8c792d = L.marker(
+                [51.806546, -4.742101],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_2e1b592e02ca40a6bc512eeb4e071c62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_87564662f4424dc68124dbb71a8c792d.setIcon(icon_2e1b592e02ca40a6bc512eeb4e071c62);
+        
+    
+            marker_87564662f4424dc68124dbb71a8c792d.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: SA67 7ES</b><br><i>mins/week: 10:30:00</i><br><i>mins/week: 11:15:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_66b96283b03a4c43aa6bafafdb51c1e9 = L.marker(
+                [51.8136, -3.0321],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_5696df2ee7264fa1b83f01bb0066dae2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_66b96283b03a4c43aa6bafafdb51c1e9.setIcon(icon_5696df2ee7264fa1b83f01bb0066dae2);
+        
+    
+            marker_66b96283b03a4c43aa6bafafdb51c1e9.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP7 9LN</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c7d54390acff4381aa5f76705c43bbb6 = L.marker(
+                [51.818381, -4.613607],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_ce9a3e840fd84be6b4db78070d869bec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c7d54390acff4381aa5f76705c43bbb6.setIcon(icon_ce9a3e840fd84be6b4db78070d869bec);
+        
+    
+            marker_c7d54390acff4381aa5f76705c43bbb6.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: SA34 0AW</b><br><i>mins/week: 12:55:00</i><br><i>mins/week: 13:40:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85e27157471242f6b515b6026f3a8a1a = L.marker(
+                [51.99325, -3.41214],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_5f6c753305a743f680b666779f790694 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_85e27157471242f6b515b6026f3a8a1a.setIcon(icon_5f6c753305a743f680b666779f790694);
+        
+    
+            marker_85e27157471242f6b515b6026f3a8a1a.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LD3 9PY</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57e7f991257f4875a40e83848a2e9e72 = L.marker(
+                [52.659587, -3.14027],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_f3415a626f544f9bb091952d21deb3dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_57e7f991257f4875a40e83848a2e9e72.setIcon(icon_f3415a626f544f9bb091952d21deb3dc);
+        
+    
+            marker_57e7f991257f4875a40e83848a2e9e72.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: SY21 7BL</b><br><i>mins/week: 13:45:00</i><br><i>mins/week: 14:30:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8fedcb332e8f474c9481e194cd16378d = L.marker(
+                [52.9415, -4.3531],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_348b8d3195bb4613b34ba25f95f80b44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_8fedcb332e8f474c9481e194cd16378d.setIcon(icon_348b8d3195bb4613b34ba25f95f80b44);
+        
+    
+            marker_8fedcb332e8f474c9481e194cd16378d.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL53 6DQ</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_410b742f3fba4fb9b6ed57092b2d9fe3 = L.marker(
+                [53.2111, -4.0934],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_e6a85c0dada448ef8487a50ce9cae1c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_410b742f3fba4fb9b6ed57092b2d9fe3.setIcon(icon_e6a85c0dada448ef8487a50ce9cae1c5);
+        
+    
+            marker_410b742f3fba4fb9b6ed57092b2d9fe3.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL57 3YJ</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e769d04a645d4bcd8afa5f4b3e065bc2 = L.marker(
+                [51.681433, -3.3774],
+                {}
+            ).addTo(marker_cluster_6547a9dcdddf4727a85cd5ebe2de81b2);
+        
+    
+            var icon_fcb894977d614c31861907af167da938 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e769d04a645d4bcd8afa5f4b3e065bc2.setIcon(icon_fcb894977d614c31861907af167da938);
+        
+    
+            marker_e769d04a645d4bcd8afa5f4b3e065bc2.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: LBG</b><br><b>Postcode: CF45 3HD</b><br><i>mins/week: 09:30</i><br><i>mins/week: 11:30</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_f0a96d3f54394d7b8e6ac6b9b9c06542 = L.featureGroup(
+                {}
+            ).addTo(map_5a33d8666fc7465ead7d98ddb10bd579);
+        
+    
+            var marker_cluster_9b66f93e641e4352997d724210e8860b = L.markerClusterGroup(
+                {}
+            );
+            feature_group_f0a96d3f54394d7b8e6ac6b9b9c06542.addLayer(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var marker_657264bb48bd451f8b0034ebf3ffb76a = L.marker(
+                [51.4163, -3.2911],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_c451794d1242425d898282d81d86c40f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_657264bb48bd451f8b0034ebf3ffb76a.setIcon(icon_c451794d1242425d898282d81d86c40f);
+        
+    
+            marker_657264bb48bd451f8b0034ebf3ffb76a.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF62 8GP</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_03198e99a48d4b308347cdf7369f61db = L.marker(
+                [51.539, -3.3725],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_6b16407b686a4c9da325d7ea2dd4b93e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_03198e99a48d4b308347cdf7369f61db.setIcon(icon_6b16407b686a4c9da325d7ea2dd4b93e);
+        
+    
+            marker_03198e99a48d4b308347cdf7369f61db.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF72 8DG</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3c056361114c4d37a3d67eb63519855a = L.marker(
+                [51.64462, -3.983017],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_f1801e60816141f68bbb7ca55c9ad095 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3c056361114c4d37a3d67eb63519855a.setIcon(icon_f1801e60816141f68bbb7ca55c9ad095);
+        
+    
+            marker_3c056361114c4d37a3d67eb63519855a.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: SA5 4EE</b><br><i>mins/week: 14:15:00</i><br><i>mins/week: 15:00:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4eb24d04189b4b52b2796e34b6bb228d = L.marker(
+                [51.6475, -3.4322],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_c5bcc53d0340410c9baa421b0715cbdf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4eb24d04189b4b52b2796e34b6bb228d.setIcon(icon_c5bcc53d0340410c9baa421b0715cbdf);
+        
+    
+            marker_4eb24d04189b4b52b2796e34b6bb228d.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF43 3DD</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aec4c846460c4b1a9a5664d70453520c = L.marker(
+                [51.6478, -3.6761],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_cb4da67fce9f48ce83673225d238ba19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_aec4c846460c4b1a9a5664d70453520c.setIcon(icon_cb4da67fce9f48ce83673225d238ba19);
+        
+    
+            marker_aec4c846460c4b1a9a5664d70453520c.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: SA13 3EU</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ed77e031021d47dfa048e840e3d3f9d0 = L.marker(
+                [51.66325, -3.25128],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_db814703f830454f97aa5ab513fe3ad2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ed77e031021d47dfa048e840e3d3f9d0.setIcon(icon_db814703f830454f97aa5ab513fe3ad2);
+        
+    
+            marker_ed77e031021d47dfa048e840e3d3f9d0.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF82 8FA</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93f1c7c6e00f4c02b41b9bec67c4e209 = L.marker(
+                [51.668938, -4.035656],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_688fba5dc835455c88681dd66ba9833b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_93f1c7c6e00f4c02b41b9bec67c4e209.setIcon(icon_688fba5dc835455c88681dd66ba9833b);
+        
+    
+            marker_93f1c7c6e00f4c02b41b9bec67c4e209.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: SA4 4DJ</b><br><i>mins/week: 10:30:00</i><br><i>mins/week: 11:00:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34076a74f6344e8f9eec5e3ade6891ec = L.marker(
+                [51.683751, -4.253469],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_98e4fa3ccd36449dbbfcbbb72ca56f76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_34076a74f6344e8f9eec5e3ade6891ec.setIcon(icon_98e4fa3ccd36449dbbfcbbb72ca56f76);
+        
+    
+            marker_34076a74f6344e8f9eec5e3ade6891ec.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: Lloyds Bank</b><br><b>Postcode: SA38 9BA</b><br><i>mins/week: 13:00</i><br><i>mins/week: 15:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d28929db2e9c44b9933aad3be877fd8c = L.marker(
+                [51.70029, -2.58818],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_2e3dae8d1c274000b420e12cc950dd84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d28929db2e9c44b9933aad3be877fd8c.setIcon(icon_2e3dae8d1c274000b420e12cc950dd84);
+        
+    
+            marker_d28929db2e9c44b9933aad3be877fd8c.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: GL15 6NN</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79fad90a3d304e52ac6dc183bd7dc9fc = L.marker(
+                [51.71338, -5.034165],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_0335e7ca7f744c00bf2ccfab3183c80f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_79fad90a3d304e52ac6dc183bd7dc9fc.setIcon(icon_0335e7ca7f744c00bf2ccfab3183c80f);
+        
+    
+            marker_79fad90a3d304e52ac6dc183bd7dc9fc.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: SA73 2DJ</b><br><i>mins/week: 13:50:00</i><br><i>mins/week: 14:35:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d8e99c9d78694ad2b9cd8ee2e56e72dc = L.marker(
+                [51.802984, -4.969366],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_2a33f0252e0b4cb9b0d20980d077cd33 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d8e99c9d78694ad2b9cd8ee2e56e72dc.setIcon(icon_2a33f0252e0b4cb9b0d20980d077cd33);
+        
+    
+            marker_d8e99c9d78694ad2b9cd8ee2e56e72dc.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: Santander UK PLC</b><br><b>Postcode: SA61 2AD</b><br><i>mins/week: 13:00:00</i><br><i>mins/week: 13:45:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d215448918d74f99a76c1c859ca02f70 = L.marker(
+                [51.81151, -3.5511],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_bf0a328ab0c243a8bbf84e6d380044ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d215448918d74f99a76c1c859ca02f70.setIcon(icon_bf0a328ab0c243a8bbf84e6d380044ca);
+        
+    
+            marker_d215448918d74f99a76c1c859ca02f70.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF44 9JE</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_140059a23b1243dea9efdfddea979f52 = L.marker(
+                [51.818761, -4.497576],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_4b1e88f137fe499b88c9d0c9b305a644 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_140059a23b1243dea9efdfddea979f52.setIcon(icon_4b1e88f137fe499b88c9d0c9b305a644);
+        
+    
+            marker_140059a23b1243dea9efdfddea979f52.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: SA33 4BD</b><br><i>mins/week: 11:55:00</i><br><i>mins/week: 12:40:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee36df69dd3c4c7fb385191786515828 = L.marker(
+                [51.8188, -4.6148],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_257772598c584076b93729b06399988e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_ee36df69dd3c4c7fb385191786515828.setIcon(icon_257772598c584076b93729b06399988e);
+        
+    
+            marker_ee36df69dd3c4c7fb385191786515828.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: SA34 0AA</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bde0face498b4631b88ff2f9a7a079a0 = L.marker(
+                [51.82847, -4.05167],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_d891f436f07d49e88a27e9831dda3076 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bde0face498b4631b88ff2f9a7a079a0.setIcon(icon_d891f436f07d49e88a27e9831dda3076);
+        
+    
+            marker_bde0face498b4631b88ff2f9a7a079a0.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: SA14 7TW</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0b618bc966249b5a7ec71b340235af3 = L.marker(
+                [52.01497, -4.36921],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_b91d1626d4754ff68faed85974a9d432 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e0b618bc966249b5a7ec71b340235af3.setIcon(icon_b91d1626d4754ff68faed85974a9d432);
+        
+    
+            marker_e0b618bc966249b5a7ec71b340235af3.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: SA44 5DS</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_74d217153d8f48e8895d2345941f6cbe = L.marker(
+                [52.040634, -4.308888],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_2b7513be12a64b7d99490c2909980521 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_74d217153d8f48e8895d2345941f6cbe.setIcon(icon_2b7513be12a64b7d99490c2909980521);
+        
+    
+            marker_74d217153d8f48e8895d2345941f6cbe.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: SA44 4AB</b><br><i>mins/week: 10:20:00</i><br><i>mins/week: 11:20:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_196ff76c04d74c7fa5c63f5cba80d004 = L.marker(
+                [52.585866, -3.846096],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_d5513564c52240b5912f127a7d7bb15c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_196ff76c04d74c7fa5c63f5cba80d004.setIcon(icon_d5513564c52240b5912f127a7d7bb15c);
+        
+    
+            marker_196ff76c04d74c7fa5c63f5cba80d004.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: LL28 4RB</b><br><i>mins/week: 12:25:00</i><br><i>mins/week: 12:45:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_828ce14897dc4064ac891f6a51590ad3 = L.marker(
+                [52.9391, -3.959],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_91c06821adeb4af39dcdb80232b29a71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_828ce14897dc4064ac891f6a51590ad3.setIcon(icon_91c06821adeb4af39dcdb80232b29a71);
+        
+    
+            marker_828ce14897dc4064ac891f6a51590ad3.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL41 4EA</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_458e4b8dfea24c4285196357cf0342d0 = L.marker(
+                [52.9594, -3.9362],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_da6a86bf47c84d67a69383525739a456 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_458e4b8dfea24c4285196357cf0342d0.setIcon(icon_da6a86bf47c84d67a69383525739a456);
+        
+    
+            marker_458e4b8dfea24c4285196357cf0342d0.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL41 4LR</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f99f8b8c3c8f429ab04246f80615581f = L.marker(
+                [53.312355, -4.632492],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_ae54da47cc474648b239a98cb8f414e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f99f8b8c3c8f429ab04246f80615581f.setIcon(icon_ae54da47cc474648b239a98cb8f414e8);
+        
+    
+            marker_f99f8b8c3c8f429ab04246f80615581f.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: LL65 1BW</b><br><i>mins/week: 14:10:00</i><br><i>mins/week: 14:55:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a631d59901443ef869338030bd835fe = L.marker(
+                [51.665288, -3.142806],
+                {}
+            ).addTo(marker_cluster_9b66f93e641e4352997d724210e8860b);
+        
+    
+            var icon_cad91644aa62475c9da82c17d71b0a66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9a631d59901443ef869338030bd835fe.setIcon(icon_cad91644aa62475c9da82c17d71b0a66);
+        
+    
+            marker_9a631d59901443ef869338030bd835fe.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: LBG</b><br><b>Postcode: NP11 5FD</b><br><i>mins/week: 13:00</i><br><i>mins/week: 14:15</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_aa2869b8b7894106b4bc5897b26a2efb = L.featureGroup(
+                {}
+            ).addTo(map_5a33d8666fc7465ead7d98ddb10bd579);
+        
+    
+            var marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8 = L.markerClusterGroup(
+                {}
+            );
+            feature_group_aa2869b8b7894106b4bc5897b26a2efb.addLayer(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var marker_6ec37c4e9c1f435d89d6852963654a0b = L.marker(
+                [51.4223, -3.2712],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_d8d08abfbad44e7cb58f492934ca5a3b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6ec37c4e9c1f435d89d6852963654a0b.setIcon(icon_d8d08abfbad44e7cb58f492934ca5a3b);
+        
+    
+            marker_6ec37c4e9c1f435d89d6852963654a0b.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF62 9TH</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_96ebab3f7fcb47e589e28635e09841d5 = L.marker(
+                [51.55225, -3.32141],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_213e91782977459b80645146ca5a1a1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_96ebab3f7fcb47e589e28635e09841d5.setIcon(icon_213e91782977459b80645146ca5a1a1c);
+        
+    
+            marker_96ebab3f7fcb47e589e28635e09841d5.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF38 1AU</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dcf582fcd219492d9bc83575e8e0647b = L.marker(
+                [51.61403, -3.4478],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_38be6d1fbccd4778ad49ba9d44beb78e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_dcf582fcd219492d9bc83575e8e0647b.setIcon(icon_38be6d1fbccd4778ad49ba9d44beb78e);
+        
+    
+            marker_dcf582fcd219492d9bc83575e8e0647b.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF40 1JU</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d55cb5be499c48c486f0e1e9d202c016 = L.marker(
+                [51.6475, -3.4322],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_3b2251f4e74e48bfb80e495eb87359df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d55cb5be499c48c486f0e1e9d202c016.setIcon(icon_3b2251f4e74e48bfb80e495eb87359df);
+        
+    
+            marker_d55cb5be499c48c486f0e1e9d202c016.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF43 3DD</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd18f71ed0a745e6a9789269bcbfee79 = L.marker(
+                [51.6652, -2.9076],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_e34d22f84f664ac9ba96212c91039c6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_fd18f71ed0a745e6a9789269bcbfee79.setIcon(icon_e34d22f84f664ac9ba96212c91039c6d);
+        
+    
+            marker_fd18f71ed0a745e6a9789269bcbfee79.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP15 1NP</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b10eebb57059447b82fa1dbcc1c041c7 = L.marker(
+                [51.665288, -3.142806],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_0e3a86cbe5c3497a8ab6a254ac215036 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b10eebb57059447b82fa1dbcc1c041c7.setIcon(icon_0e3a86cbe5c3497a8ab6a254ac215036);
+        
+    
+            marker_b10eebb57059447b82fa1dbcc1c041c7.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: Lloyds Bank</b><br><b>Postcode: NP11 5FD</b><br><i>mins/week: 09:30</i><br><i>mins/week: 11:15</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2caf727dd84d4e7ca95bc2cc25c861aa = L.marker(
+                [51.698, -3.1494],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_45b5ae30e99544fc831dbe97aebd6f90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2caf727dd84d4e7ca95bc2cc25c861aa.setIcon(icon_45b5ae30e99544fc831dbe97aebd6f90);
+        
+    
+            marker_2caf727dd84d4e7ca95bc2cc25c861aa.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP11 3JH</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_274f92307d8842128f9097ee73f6feb0 = L.marker(
+                [51.702696, -2.904948],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_8fb4aff4ba1144d78ef4200fd6d044c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_274f92307d8842128f9097ee73f6feb0.setIcon(icon_8fb4aff4ba1144d78ef4200fd6d044c6);
+        
+    
+            marker_274f92307d8842128f9097ee73f6feb0.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: NP15 1BG</b><br><i>mins/week: 13:45:00</i><br><i>mins/week: 14:30:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_845c636d330f4fdcb9f13a0ab0cddb96 = L.marker(
+                [51.738892, -3.510671],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_5fa61815dc0d4d039192215dd59019d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_845c636d330f4fdcb9f13a0ab0cddb96.setIcon(icon_5fa61815dc0d4d039192215dd59019d8);
+        
+    
+            marker_845c636d330f4fdcb9f13a0ab0cddb96.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: CF44 9SW</b><br><i>mins/week: 14:15:00</i><br><i>mins/week: 15:15:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9f808dd8f56641e985beb3d452a316db = L.marker(
+                [52.037069, -4.468932],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_0c3c451c81834926a626ee7b5281b376 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9f808dd8f56641e985beb3d452a316db.setIcon(icon_0c3c451c81834926a626ee7b5281b376);
+        
+    
+            marker_9f808dd8f56641e985beb3d452a316db.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: SA38 9AW</b><br><i>mins/week: 13:30:00</i><br><i>mins/week: 14:15:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cbead40df3e243a1a429ccc6356b1076 = L.marker(
+                [52.35137, -3.31076],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_d30a749e667b4165b547047df980bb2f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_cbead40df3e243a1a429ccc6356b1076.setIcon(icon_d30a749e667b4165b547047df980bb2f);
+        
+    
+            marker_cbead40df3e243a1a429ccc6356b1076.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LD1 6TN</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bed050eabbdc4f8191d1c4d9df68a5a2 = L.marker(
+                [52.6168, -3.12453],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_2b36538520c24a428ebdca6cfd3f0128 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bed050eabbdc4f8191d1c4d9df68a5a2.setIcon(icon_2b36538520c24a428ebdca6cfd3f0128);
+        
+    
+            marker_bed050eabbdc4f8191d1c4d9df68a5a2.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: SY21 8NJ</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0a937040418b443cbd3425293cd539aa = L.marker(
+                [52.97368, -4.23928],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_931dcbdf09ce40f896ae62ac0764e1ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0a937040418b443cbd3425293cd539aa.setIcon(icon_931dcbdf09ce40f896ae62ac0764e1ff);
+        
+    
+            marker_0a937040418b443cbd3425293cd539aa.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL51 9TX</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_091d480b77a24171b2f5fc8021a5a092 = L.marker(
+                [53.02559, -4.28186],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_7ebed1ece3eb49549855c5b738f48ab2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_091d480b77a24171b2f5fc8021a5a092.setIcon(icon_7ebed1ece3eb49549855c5b738f48ab2);
+        
+    
+            marker_091d480b77a24171b2f5fc8021a5a092.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL54 6DW</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cd30860715dc4780b33d65852c438e45 = L.marker(
+                [53.0417, -4.2834],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_4de17840735847529bd932d6f6c391b8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_cd30860715dc4780b33d65852c438e45.setIcon(icon_4de17840735847529bd932d6f6c391b8);
+        
+    
+            marker_cd30860715dc4780b33d65852c438e45.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL54 6SG</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17b1799e465345d483ff51262693ff0d = L.marker(
+                [53.0699, -4.2288],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_6b7d118f71524d3fb5ff83ad59079b72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_17b1799e465345d483ff51262693ff0d.setIcon(icon_6b7d118f71524d3fb5ff83ad59079b72);
+        
+    
+            marker_17b1799e465345d483ff51262693ff0d.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL54 7BB</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4ecd77abe0dc4f09aac564b0b432816b = L.marker(
+                [53.09175, -4.22987],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_3dff0e631b14436c99fc0b84767dfb2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4ecd77abe0dc4f09aac564b0b432816b.setIcon(icon_3dff0e631b14436c99fc0b84767dfb2a);
+        
+    
+            marker_4ecd77abe0dc4f09aac564b0b432816b.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL54 7ET</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd905a4c6de44135ac315cc837c69547 = L.marker(
+                [53.1472, -4.1252],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_5ef134f1560c44b1a397ea69437e2421 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_fd905a4c6de44135ac315cc837c69547.setIcon(icon_5ef134f1560c44b1a397ea69437e2421);
+        
+    
+            marker_fd905a4c6de44135ac315cc837c69547.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: LL55 3HR</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_283797ea43c7492dabc51ebf15e06349 = L.marker(
+                [51.732511, -3.134778],
+                {}
+            ).addTo(marker_cluster_a9c052d9da2d4dfd9d5cdaeffb9320c8);
+        
+    
+            var icon_cd7802b0a732484b99bbe1555308135d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_283797ea43c7492dabc51ebf15e06349.setIcon(icon_cd7802b0a732484b99bbe1555308135d);
+        
+    
+            marker_283797ea43c7492dabc51ebf15e06349.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: LBG</b><br><b>Postcode: NP13 1BQ</b><br><i>mins/week: 09:30</i><br><i>mins/week: 11:15</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var feature_group_6a6e1a7e68a749808a4c74d200461062 = L.featureGroup(
+                {}
+            ).addTo(map_5a33d8666fc7465ead7d98ddb10bd579);
+        
+    
+            var marker_cluster_78995cf97d4c4ced874fa22aadaddbfd = L.markerClusterGroup(
+                {}
+            );
+            feature_group_6a6e1a7e68a749808a4c74d200461062.addLayer(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var marker_53d5174a305b43c4a7368eac3ff0386e = L.marker(
+                [51.533633, -3.391059],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_3abe0659632c4632900466d084703f53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_53d5174a305b43c4a7368eac3ff0386e.setIcon(icon_3abe0659632c4632900466d084703f53);
+        
+    
+            marker_53d5174a305b43c4a7368eac3ff0386e.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: CF72 8FE</b><br><i>mins/week: 10:00:00</i><br><i>mins/week: 10:30:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d939830c510641a9bb1a8788650a3bd9 = L.marker(
+                [51.539, -3.3725],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_6fa9b01baba34a50b90a5539296c9265 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d939830c510641a9bb1a8788650a3bd9.setIcon(icon_6fa9b01baba34a50b90a5539296c9265);
+        
+    
+            marker_d939830c510641a9bb1a8788650a3bd9.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF72 8DG</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7e183f7f86a49968c93f2e0790819af = L.marker(
+                [51.54391, -3.27456],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_ecb684e21cde45cf94588bd87c0f0b5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b7e183f7f86a49968c93f2e0790819af.setIcon(icon_ecb684e21cde45cf94588bd87c0f0b5a);
+        
+    
+            marker_b7e183f7f86a49968c93f2e0790819af.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF15 9HH</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f5eddff51e7147fb83570d656a4b854b = L.marker(
+                [51.642538, -3.233226],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_ea4de598e91d4f098819be79b5c12912 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_f5eddff51e7147fb83570d656a4b854b.setIcon(icon_ea4de598e91d4f098819be79b5c12912);
+        
+    
+            marker_f5eddff51e7147fb83570d656a4b854b.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: CF82 8AA</b><br><i>mins/week: 11:30:00</i><br><i>mins/week: 12:15:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0d71d3007ed94b0e8017088b3bf7523e = L.marker(
+                [51.6478, -3.6761],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_95bf72c3514d41c1831f9c44881679d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0d71d3007ed94b0e8017088b3bf7523e.setIcon(icon_95bf72c3514d41c1831f9c44881679d9);
+        
+    
+            marker_0d71d3007ed94b0e8017088b3bf7523e.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: SA13 3EU</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b9ec12df2094ab4a823b1e1f37d2263 = L.marker(
+                [51.657899, -3.498897],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_800434da1eb746eca4874ddce84b57d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_9b9ec12df2094ab4a823b1e1f37d2263.setIcon(icon_800434da1eb746eca4874ddce84b57d3);
+        
+    
+            marker_9b9ec12df2094ab4a823b1e1f37d2263.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: CF42 6PB</b><br><i>mins/week: 12:00:00</i><br><i>mins/week: 12:30:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7487f428ec3945c0a8c5516db70c0bd9 = L.marker(
+                [51.6703, -3.1351],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_b6e3a1f978434fd291248f47086871ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7487f428ec3945c0a8c5516db70c0bd9.setIcon(icon_b6e3a1f978434fd291248f47086871ac);
+        
+    
+            marker_7487f428ec3945c0a8c5516db70c0bd9.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP11 5BX</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_94fc93c8faaf46d399e181513a53af67 = L.marker(
+                [51.671241, -4.698231],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_1aaf39df1597423f8d82c0addb03ccde = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_94fc93c8faaf46d399e181513a53af67.setIcon(icon_1aaf39df1597423f8d82c0addb03ccde);
+        
+    
+            marker_94fc93c8faaf46d399e181513a53af67.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: SA70 8AQ</b><br><i>mins/week: 13:20:00</i><br><i>mins/week: 14:20:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b4760691b57640bdb6c40888d208b4fe = L.marker(
+                [51.675261, -4.916805],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_24b33f7568254ca0abc258a155948eaf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b4760691b57640bdb6c40888d208b4fe.setIcon(icon_24b33f7568254ca0abc258a155948eaf);
+        
+    
+            marker_b4760691b57640bdb6c40888d208b4fe.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: SA71 4JY</b><br><i>mins/week: 10:50:00</i><br><i>mins/week: 11:50:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6f986bf8743442be9c918b3c2d7dde70 = L.marker(
+                [51.7032, -3.2076],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_99f11b1b14e0422ba5330423ee0ee733 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_6f986bf8743442be9c918b3c2d7dde70.setIcon(icon_99f11b1b14e0422ba5330423ee0ee733);
+        
+    
+            marker_6f986bf8743442be9c918b3c2d7dde70.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP12 0RX</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7ec18dddcdc64e4597428e15fbf19061 = L.marker(
+                [51.713604, -3.447619],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_099fc60123384889aca5c48924506fa0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7ec18dddcdc64e4597428e15fbf19061.setIcon(icon_099fc60123384889aca5c48924506fa0);
+        
+    
+            marker_7ec18dddcdc64e4597428e15fbf19061.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: CF44 7AW</b><br><i>mins/week: 12:50:00</i><br><i>mins/week: 13:20:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0301038b0b7e4aff9ab5f05413cc49c8 = L.marker(
+                [51.721, -3.1297],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_f656c0a4b777447fb8a3b74b8e822bea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_0301038b0b7e4aff9ab5f05413cc49c8.setIcon(icon_f656c0a4b777447fb8a3b74b8e822bea);
+        
+    
+            marker_0301038b0b7e4aff9ab5f05413cc49c8.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: NP13 2ND</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4cbdb479b13f4fc4a01167d03e9b57a0 = L.marker(
+                [51.73324, -3.48722],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_57b24ea7cdd440caaf0ecff6153e6267 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_4cbdb479b13f4fc4a01167d03e9b57a0.setIcon(icon_57b24ea7cdd440caaf0ecff6153e6267);
+        
+    
+            marker_4cbdb479b13f4fc4a01167d03e9b57a0.bindTooltip(
+                `<div>
+                     <b> Branch: Post Office</b><br><b>Brand: nan</b><br><b>Postcode: CF44 9HD</b><br><i>mins/week: nan</i><br><i>mins/week: nan</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_68373c6feeba4e43908ea1fea3a3abd5 = L.marker(
+                [51.810367, -2.723481],
+                {}
+            ).addTo(marker_cluster_78995cf97d4c4ced874fa22aadaddbfd);
+        
+    
+            var icon_380244483a84429e850100b4d8ba9741 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fa-money", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_68373c6feeba4e43908ea1fea3a3abd5.setIcon(icon_380244483a84429e850100b4d8ba9741);
+        
+    
+            marker_68373c6feeba4e43908ea1fea3a3abd5.bindTooltip(
+                `<div>
+                     <b> Branch: Bank</b><br><b>Brand: NatWest</b><br><b>Postcode: NP25 5AS</b><br><i>mins/week: 10:00:00</i><br><i>mins/week: 10:30:00</i>
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var layer_control_9a588681b00649b29d4056c37a2123ca = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_77278042c48c419a84c05c6990deea6e,
+                },
+                overlays :  {
+                    "Monday" : feature_group_ae1c449125934899bff9340d2882faaa,
+                    "Tuesday" : feature_group_e1b86057c7f544e28c8b29529dab8fbd,
+                    "Wednesday" : feature_group_f0a96d3f54394d7b8e6ac6b9b9c06542,
+                    "Thursday" : feature_group_aa2869b8b7894106b4bc5897b26a2efb,
+                    "Friday" : feature_group_6a6e1a7e68a749808a4c74d200461062,
+                },
+            };
+            L.control.layers(
+                layer_control_9a588681b00649b29d4056c37a2123ca.base_layers,
+                layer_control_9a588681b00649b29d4056c37a2123ca.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_5a33d8666fc7465ead7d98ddb10bd579);
+        
+</script>
